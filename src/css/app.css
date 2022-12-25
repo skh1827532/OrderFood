@@ -1,0 +1,31 @@
+@import-normalize;
+@import "./recipe-list.css";
+@import "./buttons.css";
+@import "./recipe.css";
+@import "./ingredient-list.css";
+@import "./recipe-edit.css";
+
+/* @import './font.css' */
+
+*,
+*::before,
+*::after {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* by doing this the width is accumulation of all margins, paddings etc */
+
+  /* font-family: Gotham Rounded; */
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
